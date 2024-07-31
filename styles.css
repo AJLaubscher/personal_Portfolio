@@ -271,7 +271,7 @@ nav .navlinks li a i:hover{
         top: 45px;
     }
     .click span{
-        position: absolute;
+        position: fixed;
         margin-top: 12px;
     }
    .click span:first-child{
@@ -287,7 +287,7 @@ nav .navlinks li a i:hover{
         top: 0;
    }
    nav .navlinks{
-        position: absolute;
+        position: fixed;
         top: 110px;
         right: -100%;
         bottom: 0;
