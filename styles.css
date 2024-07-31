@@ -287,6 +287,7 @@ nav .navlinks li a i:hover{
         top: 0;
    }
    nav .navlinks{
+        display: none;
         position: fixed;
         top: 110px;
         right: -100%;
@@ -338,6 +339,7 @@ nav .navlinks li a i:hover{
     }
 
     nav .navlinks{
+        display: none;
         position: fixed;
         top: 110px;
         right: -100%;
