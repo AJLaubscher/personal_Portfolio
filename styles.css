@@ -289,10 +289,10 @@ nav .navlinks li a i:hover{
    nav .navlinks{
         position: fixed;
         top: 110px;
-        right: -100%;
+        right: -100vw; /* Ensure fully off-screen on mobile */
+        width: 60vw;
         bottom: 0;
-        width: 60%;
-        height: 200px;
+        height: 100vh;
         background-color: #222;
         z-index: 3;
         box-shadow: 5px 13px 30px rgba(0,0,0,0.1);
@@ -341,10 +341,10 @@ nav .navlinks li a i:hover{
     nav .navlinks{
         position: absolute;
         top: 110px;
-        right: -100%;
+        right: -100vw; /* Ensure fully off-screen on mobile */
+        width: 60vw;
         bottom: 0;
-        width: 60%;
-        height: 200px;
+        height: 100vh;
         background-color: #222;
         z-index: 3;
         box-shadow: 5px 13px 30px rgba(0,0,0,0.1);
