@@ -269,10 +269,22 @@ nav .navlinks li a i:hover{
     /* Toggle button  */
     .click{
         top: 45px;
+        /*  */
+        position: fixed; 
+        top: 20px; 
+        right: 20px; 
+        z-index: 5; 
     }
     .click span{
-        position: fixed;
-        margin-top: 12px;
+        /* position: fixed;
+        margin-top: 12px; */
+        /*  */
+        display: block;
+        width: 30px;
+        height: 3px;
+        background-color: #fff;
+        margin: 6px 0;
+        transition: 0.4s;
     }
    .click span:first-child{
         transform: rotate(-40deg);
