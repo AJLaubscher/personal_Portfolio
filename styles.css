@@ -298,6 +298,7 @@ nav .navlinks li a i:hover{
         box-shadow: 5px 13px 30px rgba(0,0,0,0.1);
         transition: 0.5s;
         padding: 25px 0px;
+        overflow: hidden;
    }
    nav .navlinks li{
         display: block;
@@ -349,6 +350,7 @@ nav .navlinks li a i:hover{
         box-shadow: 5px 13px 30px rgba(0,0,0,0.1);
         transition: 0.5s;
         padding: 25px 0px;
+        overflow: hidden;
    }
    nav .navlinks li{
         display: block;
