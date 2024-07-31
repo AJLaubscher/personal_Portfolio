@@ -289,7 +289,7 @@ nav .navlinks li a i:hover{
    nav .navlinks{
         position: absolute;
         top: 110px;
-        right: -60%;
+        right: -100%;
         bottom: 0;
         width: 60%;
         height: 200px;
@@ -340,7 +340,7 @@ nav .navlinks li a i:hover{
     nav .navlinks{
         position: absolute;
         top: 110px;
-        right: -60%;
+        right: -100%;
         bottom: 0;
         width: 60%;
         height: 200px;
