@@ -269,22 +269,10 @@ nav .navlinks li a i:hover{
     /* Toggle button  */
     .click{
         top: 45px;
-        /*  */
-        position: fixed; 
-        top: 20px; 
-        right: 20px; 
-        z-index: 5; 
     }
     .click span{
-        /* position: fixed;
-        margin-top: 12px; */
-        /*  */
-        display: block;
-        width: 30px;
-        height: 3px;
-        background-color: #fff;
-        margin: 6px 0;
-        transition: 0.4s;
+        position: absolute;
+        margin-top: 12px;
     }
    .click span:first-child{
         transform: rotate(-40deg);
@@ -300,9 +288,9 @@ nav .navlinks li a i:hover{
    }
    nav .navlinks{
         display: none;
-        position: fixed;
+        position: absolute;
         top: 110px;
-        right: -100%;
+        right: -60%;
         bottom: 0;
         width: 60%;
         height: 200px;
@@ -322,6 +310,7 @@ nav .navlinks li a i:hover{
    }
    nav .navlinks.open{
         right:0;
+        display: block;
    }
 
    .projLinks img{
@@ -351,10 +340,9 @@ nav .navlinks li a i:hover{
     }
 
     nav .navlinks{
-        display: none;
-        position: fixed;
+        position: absolute;
         top: 110px;
-        right: -100%;
+        right: -60%;
         bottom: 0;
         width: 60%;
         height: 200px;
@@ -389,8 +377,7 @@ nav .navlinks li a i:hover{
       }
     .SkillsSection{
         flex-wrap: wrap;
+        height: fit-content;
     }
       
-
-
 }
