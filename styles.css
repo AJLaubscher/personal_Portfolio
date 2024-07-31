@@ -337,6 +337,31 @@ nav .navlinks li a i:hover{
         padding: 40px 0px;
     }
 
+    nav .navlinks{
+        position: absolute;
+        top: 110px;
+        right: -60%;
+        bottom: 0;
+        width: 60%;
+        height: 200px;
+        background-color: #222;
+        z-index: 3;
+        box-shadow: 5px 13px 30px rgba(0,0,0,0.1);
+        transition: 0.5s;
+        padding: 25px 0px;
+   }
+   nav .navlinks li{
+        display: block;
+   }
+   nav .navlinks li a{
+        display: block;
+        margin-bottom: 15px;
+        text-align: center;
+   }
+   nav .navlinks.open{
+        right:0;
+   }
+
     .projLinks img{
         width: 100px;
         height: 100px;
