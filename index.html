@@ -2,10 +2,98 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Icons dev-->
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+    <!-- Fonts -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 <body>
-    <H1>Hello World!</H1>
+    <div class="hero_header">
+        <div class="wrapper">
+            <header>
+                <!-- Might remove -->
+                <div class="logo">
+                    <!-- <i class="fa-solid fa-a"></i> -->
+                    <!-- <div class="logo-text">André Laubscher</div> -->
+                </div>
+                <!-- Might remove -->
+                    <nav>
+                        <div class="togglebtn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <ul class="navlinks">
+                            <li><a href="https://github.com/AJLaubscher"><i class="devicon-github-original"></i></a></li>
+                            <li><a href="https://linkedin.com/in/andrelaubscher1"><i class="devicon-linkedin-plain"></i></a></li>
+                            <li><a href="#"><i class="fa-solid fa-clipboard"></i></a></li>
+                        </ul>
+                    </nav>
+            </header>
+            <div class="container">
+                <div class="heropic">
+                    <img src="images/profile.jpg" alt="profile">
+                </div>
+                
+                <div class="hero-text">
+                    <h5>Hi I'm <span class="input"><!--Software Developer   --></span></h5>
+                    <H1>André Laubscher</H1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        Ipsam debitis illo corporis fugit, obcaecati perferendis delectus distinctio soluta, 
+                        odio quidem nesciunt! Reiciendis molestiae similique ea?
+                    </p>
+                    <!-- Might remove -->
+                    <div class="btn-group">
+                        <a href="/images/ANDRÉ_LAUBSCHER.pdf" class="btn active">Download CV</a> 
+                        <!-- <a href="#" class="btn">Contact</a>  -->
+                    </div>
+
+                </div>
+            </div>
+                <!-- project Highlights -->
+                <div class="projects">
+                    <div class="projLinks"><a href="https://github.com/AJLaubscher/SpaSystem"> <img src="images/SQL.jpg" alt="SQL"><div class="overlay"><div class="text"><h2>Spa Management System</h2></div></div></a></div>
+                    <div class="projLinks"><a href=""> <img src="images/code2.jpg" alt="SQL"><div class="overlay"><div class="text"><h2>Portfolio</h2></div></div></a></div>
+                    <div class="projLinks"><a href=""><img src="images/code1.png" alt="SQL"><div class="overlay"><div class="text"><h2>HMS T&L System</h2></div></div></a></div>
+                </div>
+                <div class = "SkillsSection"><span>Skills:</span>
+                    <i class="devicon-python-plain"></i>
+                    <i class="devicon-csharp-plain"></i>
+                    <i class="devicon-cplusplus-plain"></i>
+                    <i class="devicon-java-plain"></i>
+                    <i class="devicon-azuresqldatabase-plain"></i>
+                    <i class="devicon-html5-plain"></i>
+                    <i class="devicon-css3-plain"></i>
+                    <i class="devicon-javascript-plain"></i>
+
+                </div>
+        </div>
+    </div>
+    <!-- typed js for typing text effect -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"></script>
+    <script>
+        // create button click
+        var togglebtn=document.querySelector(".togglebtn");
+        var nav=document.querySelector(".navlinks");
+        var links=document.querySelector(".navlinks li");
+
+        togglebtn.addEventListener("click", function(){
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+        })
+
+        var typed=new Typed(".input", {
+            strings:["Backend Developer","Software Developer", "Computer Scientist"],
+            typedSpeed: 100,
+            backSpeed:77,
+            loop: true
+        } )
+    </script>
 </body>
 </html>
