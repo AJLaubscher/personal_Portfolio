@@ -289,16 +289,15 @@ nav .navlinks li a i:hover{
    nav .navlinks{
         position: fixed;
         top: 110px;
-        right: -100vw; /* Ensure fully off-screen on mobile */
-        width: 60vw;
+        right: -100%;
         bottom: 0;
-        height: 100vh;
+        width: 60%;
+        height: 200px;
         background-color: #222;
         z-index: 3;
         box-shadow: 5px 13px 30px rgba(0,0,0,0.1);
         transition: 0.5s;
         padding: 25px 0px;
-        overflow: hidden;
    }
    nav .navlinks li{
         display: block;
@@ -339,18 +338,17 @@ nav .navlinks li a i:hover{
     }
 
     nav .navlinks{
-        position: absolute;
+        position: fixed;
         top: 110px;
-        right: -100vw; /* Ensure fully off-screen on mobile */
-        width: 60vw;
+        right: -100%;
         bottom: 0;
-        height: 100vh;
+        width: 60%;
+        height: 200px;
         background-color: #222;
         z-index: 3;
         box-shadow: 5px 13px 30px rgba(0,0,0,0.1);
         transition: 0.5s;
         padding: 25px 0px;
-        overflow: hidden;
    }
    nav .navlinks li{
         display: block;
