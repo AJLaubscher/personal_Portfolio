@@ -75,8 +75,8 @@ nav .navlinks li a i:hover{
     padding-top: 4rem;
 }
 .container .heropic{
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     overflow: hidden;
     border: 15px solid #526D82;
@@ -149,8 +149,8 @@ nav .navlinks li a i:hover{
 }
 
 .projLinks img{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     box-shadow: 5px 7px 25px rgba(222, 231, 237.8);
     overflow: hidden;
@@ -161,8 +161,8 @@ nav .navlinks li a i:hover{
     bottom: 0;
     left: 0;
     right: 0;
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     border-radius: 50%;
     opacity: 0;
     transition: 1s ease;
