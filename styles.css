@@ -13,7 +13,7 @@ body{
     width: 100%;
     height: 100%;
     min-height: 100vh;
-    background: #222;
+    background-color: #27374D;
 }
 .wrapper{
     width: 1280px;
@@ -28,33 +28,6 @@ header{
     align-items: center;
     flex-wrap: wrap;
 }
-/* Might remove */
-.logo{
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #d5d5d5;
-}
-/* Might remove */
-.logo i{
-    height: 45px;
-    width: 45px;
-    background-color: #007ced;
-    border-radius: 50%;
-    color: #fff;
-    font-weight: 700;
-    font-size: 1.5rem;
-    padding: 10px;
-    margin-right: 5px;
-    cursor:pointer;
-    text-align: center;
-}
-.logo .logo-text{
-    font-size: 24px;
-    font-weight: 500;
-    color:#fff;
-
-}
 nav .togglebtn{
     width: 35px;
     height: 35px;
@@ -63,9 +36,7 @@ nav .togglebtn{
     right: 3%;
     z-index: 5;
     cursor: pointer;
-    /* background-color: #007ced; */
     display: none;
-
 }
 
 nav .togglebtn span{
@@ -86,17 +57,15 @@ nav .navlinks li{
 }
 
 nav .navlinks li a{
-    color: #e5e5e5;
+    color: #DDE6ED;
     margin-right: 2.5rem ;
-    
-   
 }
 nav .navlinks li a i{
     font-size: 35px;
     transition: 0.5s;
 }
 nav .navlinks li a i:hover{
-    color:#007ced;
+    color:#526D82;
 }
 
 .container{
@@ -104,20 +73,19 @@ nav .navlinks li a i:hover{
     justify-content: space-around;
     align-items: center;
     padding-top: 4rem;
-
 }
 .container .heropic{
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
     overflow: hidden;
-    border: 15px solid #444;
-    box-shadow: 5px 7px 25px rgba(0,0,0,0.5);
+    border: 15px solid #526D82;
+    box-shadow: 5px 7px 25px rgba(222, 231, 237, 0.4);
 }
 .heropic img{
     height: 100%;
     width: 100%;
-    filter: grayscale(100%) brightness(150%);
+    filter: grayscale(50%) brightness(90%);
     transition: 0.5s;
 }
 .heropic img:hover{
@@ -129,69 +97,50 @@ nav .navlinks li a i:hover{
     flex-direction: column;
 }
 .hero-text h5{
-    color: #e5e5e5;
-    font-size: 14px;
-
+    color: #DDE6ED;
+    font-size: 18px;
 }
+/* Moving text ************************** */
 .hero-text h5 span{
-    color: #007ced;
-    font-size: 16px;
+    color: #34abe2;
+    font-size: 20px;
 }
 .hero-text h1{
-    color: #007ced;
+    color: #34abe2;;
     font-size: 3rem;
 }
 .hero-text p{
-    color: #e5e5e5;
+    color: #DDE6ED;
 }
 
 /* Download CV button */
 .btn-group{
     margin:45px 0;
 }
-
 .btn-group .btn{
     border-color: #d5d5d5;
-    color: #fff;
-    background-color: #333;
+    color: #DDE6ED;
+    background-color: #27374D;
     padding: 12px 25px;
     margin: 5px 0;
     margin-right: 7px;
     border-radius: 30px;
     border: 2px solid #e5e5e5;
-    box-shadow: 0 10px 10px -8px rgba(0,0,0,0.5);
-    /* box-shadow: 0 10px 10px -8px rgba( 0 0 0 / 78%); */
+    box-shadow: 0 10px 10px -8px rgba(222, 231, 237, 78%);
 }
 .btn.active{
-    border-color: #007ced;
+    border-color: #9DB2BF;
 }
 .btn.active:hover{
-    background-color: #007ced;
+    background-color: #526D82;
 }
-.hero-text .social i{
-    color: #e5e5e5;
-    font-size: 18px;
-    margin-right: 10px;
-    transition: 0.5s;
-}
-.hero-text .social i:hover{
-    color:#007ced;
-    transform: rotate(360deg);
-}
-/* Projects highlights */
 .projects{
-
-    padding: 15px;
-    width: 100%;
-    height: auto;
     display: flex;
-    justify-content: space-between;
-
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 4rem;
 }
-
 .projects .projLinks{
-
-
     position: relative;
     justify-content: center;
     align-items: center;
@@ -199,14 +148,10 @@ nav .navlinks li a i:hover{
 }
 
 .projLinks img{
-    display: flex;
     width: 350px;
     height: 350px;
     border-radius: 50%;
-    overflow: hidden;
-    box-shadow: 5px 7px 25px rgba(0,0,0,0.8);
-    max-width: 100%;
-    flex-wrap: wrap;
+    box-shadow: 5px 7px 25px rgba(222, 231, 237.8);
 }
 .overlay {
     position: absolute;
@@ -219,7 +164,7 @@ nav .navlinks li a i:hover{
     border-radius: 50%;
     opacity: 0;
     transition: 1s ease;
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(82, 109, 130,0.8);
     align-content: center;
     text-align: center;
     max-width: 100%;
@@ -231,7 +176,7 @@ nav .navlinks li a i:hover{
   }
 
   .text {
-    color: white;
+    color: #34abe2;
     font-size: 20px;
     position: absolute;
     top: 50%;
@@ -242,23 +187,31 @@ nav .navlinks li a i:hover{
 
   /* skills Section */
   .SkillsSection{
+    color: #DDE6ED; 
     display: flex;
-    /* width: 100%; */
-    color: #d5d5d5;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding-top: 4rem;
   }
   .SkillsSection span{
     font-size: 60px;
     font-weight: 700;
+    
   }
 .SkillsSection i{
-    color: #e5e5e5;
     font-size: 60px;
     margin-right: 10px;
     transition: 0.5s;
     padding-left: 50px;
+    transition: 0.5s;
+    
   }
-
-
+  .SkillsSection i:hover{
+    /* Disapear when hovering */
+    color: #27374D;
+    transform: rotate(360deg);
+  }
 
 /* Displaying nav bar for smaller screens */
 @media(max-width:930px)
@@ -294,9 +247,9 @@ nav .navlinks li a i:hover{
         bottom: 0;
         width: 60%;
         height: 200px;
-        background-color: #222;
+        background-color: #27374D;
         z-index: 3;
-        box-shadow: 5px 13px 30px rgba(0,0,0,0.1);
+    
         transition: 0.5s;
         padding: 25px 0px;
    }
@@ -346,9 +299,8 @@ nav .navlinks li a i:hover{
         bottom: 0;
         width: 60%;
         height: 200px;
-        background-color: #222;
+        background-color: #27374D;
         z-index: 3;
-        box-shadow: 5px 13px 30px rgba(0,0,0,0.1);
         transition: 0.5s;
         padding: 25px 0px;
    }
