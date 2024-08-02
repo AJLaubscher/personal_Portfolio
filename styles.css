@@ -81,6 +81,7 @@ nav .navlinks li a i:hover{
     overflow: hidden;
     border: 15px solid #526D82;
     box-shadow: 5px 7px 25px rgba(222, 231, 237, 0.4);
+
 }
 .heropic img{
     height: 100%;
@@ -139,6 +140,7 @@ nav .navlinks li a i:hover{
     justify-content: space-around;
     align-items: center;
     padding-top: 4rem;
+    /* overflow: hidden; */
 }
 .projects .projLinks{
     position: relative;
@@ -148,10 +150,11 @@ nav .navlinks li a i:hover{
 }
 
 .projLinks img{
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     box-shadow: 5px 7px 25px rgba(222, 231, 237.8);
+    overflow: hidden;
 }
 .overlay {
     position: absolute;
@@ -159,8 +162,8 @@ nav .navlinks li a i:hover{
     bottom: 0;
     left: 0;
     right: 0;
-    height: 350px;
-    width: 350px;
+    height: 300px;
+    width: 300px;
     border-radius: 50%;
     opacity: 0;
     transition: 1s ease;
@@ -193,6 +196,7 @@ nav .navlinks li a i:hover{
     align-items: center;
     align-content: center;
     padding-top: 4rem;
+    overflow: hidden;
   }
   .SkillsSection span{
     font-size: 60px;
