@@ -82,6 +82,8 @@ nav .navlinks li a i:hover{
     border: 15px solid #526D82;
     box-shadow: 5px 7px 25px rgba(222, 231, 237, 0.4);
     overflow: hidden;
+    justify-content: center;
+    align-items: center;
 }
 .heropic img{
     height: 100%;
@@ -137,7 +139,7 @@ nav .navlinks li a i:hover{
 }
 .projects{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     padding-top: 4rem;
     /* overflow: hidden; */
