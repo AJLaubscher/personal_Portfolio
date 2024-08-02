@@ -81,7 +81,6 @@ nav .navlinks li a i:hover{
     overflow: hidden;
     border: 15px solid #526D82;
     box-shadow: 5px 7px 25px rgba(222, 231, 237, 0.4);
-
 }
 .heropic img{
     height: 100%;
@@ -334,6 +333,9 @@ nav .navlinks li a i:hover{
     .SkillsSection{
         flex-wrap: wrap;
         height: fit-content;
+    }
+    .container .heropic{
+        aspect-ratio: 16/9;
     }
       
 }
